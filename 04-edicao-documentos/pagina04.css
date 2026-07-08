@@ -1,0 +1,13 @@
+/* PÁGINA 4 - EDIÇÃO
+   Primeiro uso de <code> estilizado - destaca nomes de arquivo/comando. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+code {
+  background-color: #e6d7f7;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+}

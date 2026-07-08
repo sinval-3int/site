@@ -1,0 +1,26 @@
+/* PÁGINA 12 - ALINHAMENTO
+   Antigamente: <h2 align="center">. Hoje: text-align no CSS.
+   Reaproveita cores dos h1/h2/h3 definidas na pág.11. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  padding: 2em;
+}
+h1 {
+  color: #d1497a;
+}
+h2 {
+  color: #3a7bbf;
+}
+h3 {
+  color: #2f9e6e;
+}
+.centro {
+  text-align: center;
+}
+.direita {
+  text-align: right;
+}
+.esquerda {
+  text-align: left;
+}

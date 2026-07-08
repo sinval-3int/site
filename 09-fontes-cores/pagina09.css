@@ -1,0 +1,20 @@
+/* PÁGINA 9 - CORES DE TEXTO
+   Antigamente: <font color="red">. Hoje: <span class="..."> + CSS.
+   Usa a mesma paleta da capa (pág.1), aplicada agora em pedaços de texto. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  padding: 2em;
+}
+.destaque-rosa {
+  color: #d1497a;
+  font-weight: bold;
+}
+.destaque-azul {
+  color: #3a7bbf;
+  font-weight: bold;
+}
+.destaque-menta {
+  color: #2f9e6e;
+  font-weight: bold;
+}

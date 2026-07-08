@@ -1,0 +1,19 @@
+/* PÁGINA 30 - COR DE BORDA
+   Antigamente: bordercolor="#00ff00". Hoje: border-color no CSS. Fecha o bloco de tabelas (pág.27-30). */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.tabela-crescimento {
+  border-collapse: collapse;
+}
+.tabela-crescimento th,
+.tabela-crescimento td {
+  padding: 0.5em 1em;
+}
+.tabela-borda-rosa th,
+.tabela-borda-rosa td {
+  border: 2px solid #ffd1dc;
+}

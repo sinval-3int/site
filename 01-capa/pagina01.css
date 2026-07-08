@@ -1,0 +1,43 @@
+/* PÁGINA 1 - CAPA
+   Objetivo da aula: primeiro contato visual, mostrar que HTML = conteúdo, CSS = aparência.
+   Paleta do projeto "Site da Teté" (bebê, 1 ano): usar sempre estas cores nas próximas páginas. */
+:root {
+  --rosa-bebe: #ffd1dc;
+  --azul-bebe: #bee3f8;
+  --menta-bebe: #c8f4de;
+  --creme-bebe: #fff8e7;
+  --lilas-bebe: #e6d7f7;
+  --texto-marrom: #6b4f4f;
+}
+
+body {
+  margin: 0;
+  background-color: var(--creme-bebe);
+  font-family: "Comic Sans MS", "Verdana", sans-serif;
+}
+
+.capa {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--rosa-bebe);
+}
+
+.capa-titulo {
+  color: var(--texto-marrom);
+  font-size: 3rem;
+  margin-bottom: 0.2em;
+}
+
+.capa-subtitulo {
+  color: var(--texto-marrom);
+  font-size: 1.2rem;
+}
+
+.capa-icone {
+  margin-top: 1.5em;
+  border-radius: 50%;
+  border: 4px solid var(--azul-bebe);
+}

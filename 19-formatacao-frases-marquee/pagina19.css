@@ -1,0 +1,21 @@
+/* PÁGINA 19 - FORMATAÇÃO DE FRASES
+   <marquee> é antigo e não funciona nos navegadores modernos - hoje trocamos por
+   animação real em CSS (@keyframes), efeito parecido de forma correta. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.animada {
+  display: inline-block;
+  animation: passeando 4s linear infinite;
+}
+@keyframes passeando {
+  from {
+    transform: translateX(-20px);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}

@@ -1,0 +1,16 @@
+/* PÁGINA 27 - TABELAS: INTRODUÇÃO
+   Base .tabela-crescimento - será estendida nas pág.28, 29, 30. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.tabela-crescimento {
+  border-collapse: collapse;
+}
+.tabela-crescimento th,
+.tabela-crescimento td {
+  border: 1px solid #6b4f4f;
+  padding: 0.5em 1em;
+}

@@ -1,0 +1,11 @@
+/* PÁGINA 3 - INTRODUÇÃO
+   Ainda sem estilizar o conteúdo em si - só a base de leitura. Isso mostra
+   que SEM CSS o navegador já aplica um estilo padrão (fonte serifada, preto/branco). */
+body {
+  font-family: Georgia, serif;
+  padding: 2em;
+  background-color: #fff8e7;
+}
+h1 {
+  color: #6b4f4f;
+}

@@ -1,0 +1,25 @@
+/* PÁGINA 2 - SUMÁRIO
+   Reaproveita paleta da pág.1. Introduz: lista sem marcador de bolinha (list-style: none),
+   pra virar "menu" - conceito usado em quase todo site real. */
+body {
+  background-color: #fff8e7;
+  font-family: Verdana, sans-serif;
+  color: #6b4f4f;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  margin: 0.5em 0;
+}
+.menu a {
+  text-decoration: none;
+  color: #6b4f4f;
+  background-color: #bee3f8;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+}
+.menu a:hover {
+  background-color: #c8f4de;
+}

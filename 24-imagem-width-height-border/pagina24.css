@@ -1,0 +1,16 @@
+/* PÁGINA 24 - WIDTH/HEIGHT/BORDER
+   width/height no HTML reservam espaço antes de carregar (bom pra performance).
+   border virou border no CSS (antes era atributo border="4" no <img>). */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.foto-bebe {
+  max-width: 100%;
+}
+.foto-moldura {
+  border: 6px solid #bee3f8;
+  border-radius: 12px;
+}

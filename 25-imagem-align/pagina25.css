@@ -1,0 +1,19 @@
+/* PÁGINA 25 - ALINHAMENTO DE IMAGEM
+   Antigamente: <img align="left">. Hoje: float: left no CSS (mesmo efeito de texto fluindo ao redor). */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.foto-bebe {
+  max-width: 100%;
+}
+.foto-moldura {
+  border: 6px solid #bee3f8;
+  border-radius: 12px;
+}
+.foto-esquerda {
+  float: left;
+  margin-right: 1em;
+}

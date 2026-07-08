@@ -1,0 +1,25 @@
+<!-- PÁGINA 35 - PARA ONDE VÃO OS DADOS DO FORM | conceito: name vira variável no destino (aqui sem PHP, só explicação) -->
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Site da Teté - Como o Form Envia Dados</title>
+    <link rel="stylesheet" href="pagina35.css" />
+  </head>
+  <body>
+    <h2>O que acontece ao clicar em "Enviar"?</h2>
+    <p>
+      Cada campo tem um <code>name</code>. Ao enviar, o navegador manda esses pares nome/valor para o endereço do
+      <code>action</code> do form.
+    </p>
+    <pre class="codigo">
+nome=Vovó Rosa
+parentesco=avo
+recado=Parabéns, Teté!</pre
+    >
+    <p class="dica">
+      No nosso projeto (site estático), o <code>action</code> aponta pra um serviço externo de formulário (ex: Google
+      Forms/Formspree) — não precisamos de PHP.
+    </p>
+  </body>
+</html>

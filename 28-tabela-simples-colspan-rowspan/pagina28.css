@@ -1,0 +1,16 @@
+/* PÁGINA 28 - COLSPAN/ROWSPAN
+   Reaproveita .tabela-crescimento da pág.27 sem mudanças - colspan/rowspan são atributos HTML, não CSS. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.tabela-crescimento {
+  border-collapse: collapse;
+}
+.tabela-crescimento th,
+.tabela-crescimento td {
+  border: 1px solid #6b4f4f;
+  padding: 0.5em 1em;
+}

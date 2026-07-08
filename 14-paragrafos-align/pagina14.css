@@ -1,0 +1,23 @@
+/* PÁGINA 14 - PARÁGRAFOS ALINHADOS
+   Reaproveita .bloco da pág.13 + classes .centro/.direita/.esquerda já vistas na pág.12. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.bloco {
+  background-color: #c8f4de;
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+.centro {
+  text-align: center;
+}
+.direita {
+  text-align: right;
+}
+.esquerda {
+  text-align: left;
+}

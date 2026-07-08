@@ -1,0 +1,14 @@
+/* PÁGINA 13 - SEPARADORES
+   .bloco = cartão simples reaproveitável para "informação da Teté", usado nas próximas páginas de texto. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.bloco {
+  background-color: #c8f4de;
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,20 @@
+/* PÁGINA 21 - CAMINHOS
+   Reaproveita .link-menu da pág.20 sem alterações. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.link-menu {
+  display: inline-block;
+  text-decoration: none;
+  color: #6b4f4f;
+  background-color: #bee3f8;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+.link-menu:hover {
+  background-color: #c8f4de;
+}

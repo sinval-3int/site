@@ -1,0 +1,82 @@
+/* PÁGINA 40 - INÍCIO
+   Reaproveita .menu-tete das outras páginas. Vitrine de produtos = extensão do padrão .cartao (pág.38)
+   aplicado agora a <article class="produto">. */
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+}
+
+.menu-tete {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd1dc;
+  padding: 1em;
+}
+.menu-tete a {
+  color: #6b4f4f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu-tete a:hover {
+  text-decoration: underline;
+}
+.botao-sair {
+  margin-left: auto;
+  background-color: #6b4f4f;
+  color: #fff8e7 !important;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+}
+
+.capa-loja {
+  text-align: center;
+  padding: 2em 1em;
+  background-color: #e6d7f7;
+}
+.logo {
+  border-radius: 12px;
+  margin-bottom: 0.5em;
+}
+
+.titulo-secao {
+  text-align: center;
+  color: #d1497a;
+}
+
+.vitrine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+  max-width: 900px;
+  margin: 0 auto 2em auto;
+}
+.produto {
+  background-color: #c8f4de;
+  border-radius: 12px;
+  padding: 1em;
+  width: 180px;
+  text-align: center;
+}
+.produto img {
+  border-radius: 8px;
+}
+.preco {
+  font-weight: bold;
+  color: #3a7bbf;
+}
+.botao-enviar {
+  background-color: #ffd1dc;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.botao-enviar:hover {
+  background-color: #ffb6c9;
+}

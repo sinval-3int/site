@@ -1,0 +1,23 @@
+/* PÁGINA 10 - TAMANHOS E TIPOS DE FONTE
+   Antigamente: <font size="+2"> e <font face="arial">. Hoje: font-size e font-family.
+   Reaproveita cor de texto padrão da pág.8 (#6b4f4f). */
+body {
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.letra-grande {
+  font-size: 2rem;
+  font-family: Verdana, sans-serif;
+}
+.letra-normal {
+  font-size: 1rem;
+  font-family: Verdana, sans-serif;
+}
+.letra-pequena {
+  font-size: 0.75rem;
+  font-family: Verdana, sans-serif;
+}
+.fonte-arredondada {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}

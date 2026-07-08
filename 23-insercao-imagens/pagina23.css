@@ -1,0 +1,11 @@
+/* PÁGINA 23 - INSERÇÃO DE IMAGENS
+   .foto-bebe é a classe base de imagem - será estendida nas pág.24, 25 e 26. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.foto-bebe {
+  max-width: 100%;
+}

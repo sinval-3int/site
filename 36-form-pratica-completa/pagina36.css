@@ -1,0 +1,42 @@
+/* PÁGINA 36 - PRÁTICA COMPLETA
+   Junta todas as classes de formulário construídas nas pág.31-34, sem nenhuma nova. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.titulo-secao {
+  color: #d1497a;
+  text-align: center;
+}
+.form-tete {
+  background-color: #e6d7f7;
+  padding: 1.5em;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.campo {
+  padding: 0.4em;
+  border-radius: 6px;
+  border: 1px solid #6b4f4f;
+  margin-bottom: 0.8em;
+  width: 90%;
+}
+.botao-enviar {
+  background-color: #ffd1dc;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.botao-limpar {
+  background-color: #bee3f8;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 0.5em;
+}

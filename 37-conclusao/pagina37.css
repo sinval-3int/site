@@ -1,0 +1,17 @@
+/* PÁGINA 37 - CONCLUSÃO
+   Reaproveita .lista-bebe (pág.16) e .dica (pág.5) - mostra que o vocabulário de classes se repete. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.lista-bebe {
+  list-style-type: "🧸 ";
+  padding-left: 1.5em;
+}
+.dica {
+  background-color: #c8f4de;
+  padding: 0.8em;
+  border-radius: 8px;
+}

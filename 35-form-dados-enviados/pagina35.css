@@ -1,0 +1,25 @@
+/* PÁGINA 35 - PARA ONDE VÃO OS DADOS
+   Reaproveita .codigo da pág.6 e code/.dica das pág.4/5. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+code {
+  background-color: #e6d7f7;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+}
+.codigo {
+  background-color: #6b4f4f;
+  color: #fff8e7;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+.dica {
+  background-color: #c8f4de;
+  padding: 0.8em;
+  border-radius: 8px;
+}

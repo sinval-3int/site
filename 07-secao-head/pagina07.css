@@ -1,0 +1,13 @@
+/* PÁGINA 7 - SEÇÃO HEAD
+   Reaproveita <code> da pág.4/5. Nada novo de layout - foco é 100% conceitual (head é invisível no body). */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+code {
+  background-color: #e6d7f7;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+}

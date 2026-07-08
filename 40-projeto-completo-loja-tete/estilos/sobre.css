@@ -1,0 +1,46 @@
+/* PÁGINA 40 - SOBRE
+   Mesmo .menu-tete das outras páginas com nav, + .lista-bebe (pág.16/37). */
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+}
+.menu-tete {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd1dc;
+  padding: 1em;
+}
+.menu-tete a {
+  color: #6b4f4f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu-tete a:hover {
+  text-decoration: underline;
+}
+.botao-sair {
+  margin-left: auto;
+  background-color: #6b4f4f;
+  color: #fff8e7 !important;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+}
+
+.conteudo {
+  max-width: 600px;
+  margin: 2em auto;
+  text-align: center;
+}
+.foto-destaque {
+  border-radius: 12px;
+  margin-bottom: 1em;
+}
+.lista-bebe {
+  list-style-type: "🧸 ";
+  text-align: left;
+  padding-left: 1.5em;
+}

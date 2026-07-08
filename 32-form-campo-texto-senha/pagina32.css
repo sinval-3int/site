@@ -1,0 +1,21 @@
+/* PÁGINA 32 - CAMPO TEXTO/SENHA
+   Reaproveita .form-tete da pág.31, acrescenta .campo (estilo de input reutilizável). */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.form-tete {
+  background-color: #e6d7f7;
+  padding: 1.5em;
+  border-radius: 12px;
+  max-width: 400px;
+}
+.campo {
+  padding: 0.4em;
+  border-radius: 6px;
+  border: 1px solid #6b4f4f;
+  margin-bottom: 0.8em;
+  width: 90%;
+}

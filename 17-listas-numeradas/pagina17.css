@@ -1,0 +1,15 @@
+/* PÁGINA 17 - LISTA NUMERADA
+   Antigamente: <OL TYPE=A>. Hoje: list-style-type: upper-roman / lower-alpha etc. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.lista-rotina {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+}
+.lista-rotina li {
+  margin-bottom: 0.4em;
+}

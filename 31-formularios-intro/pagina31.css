@@ -1,0 +1,14 @@
+/* PÁGINA 31 - FORMULÁRIOS: INTRODUÇÃO
+   .form-tete é a "moldura" do formulário - será preenchida nas pág.32-34. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.form-tete {
+  background-color: #e6d7f7;
+  padding: 1.5em;
+  border-radius: 12px;
+  max-width: 400px;
+}

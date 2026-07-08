@@ -1,0 +1,77 @@
+<!-- PÁGINA 38 - PROJETO FINAL | monta 1 site só reaproveitando TODAS as classes das pág.1-37 -->
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Site da Teté</title>
+    <link rel="stylesheet" href="pagina38.css" />
+  </head>
+  <body>
+    <header class="capa">
+      <h1 class="capa-titulo">Site da Teté</h1>
+      <p class="capa-subtitulo">um cantinho na web pro primeiro aninho dela</p>
+    </header>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="#album">Álbum</a></li>
+        <li><a href="#crescimento">Crescimento</a></li>
+        <li><a href="#recado">Deixe um recado</a></li>
+      </ul>
+    </nav>
+
+    <section id="album">
+      <h2>Álbum de Fotos</h2>
+      <img
+        class="foto-bebe foto-moldura foto-esquerda foto-espacada"
+        src="https://via.placeholder.com/150"
+        alt="Teté de 1 ano"
+      />
+      <p>A Teté completou 1 aninho cheia de saúde e sorrisos.</p>
+      <br clear="left" />
+      <ul class="lista-bebe">
+        <li>Ursinho de pelúcia</li>
+        <li>Chocalho colorido</li>
+        <li>Livro de pano</li>
+      </ul>
+    </section>
+
+    <hr class="separador" />
+
+    <section id="crescimento">
+      <h2>Crescimento</h2>
+      <table class="tabela-crescimento tabela-sem-borda">
+        <tr>
+          <th>Idade</th>
+          <th>Peso</th>
+          <th>Altura</th>
+        </tr>
+        <tr class="linha-destaque">
+          <td>Nascimento</td>
+          <td>3,2kg</td>
+          <td>49cm</td>
+        </tr>
+        <tr>
+          <td>1 ano</td>
+          <td>9,5kg</td>
+          <td>75cm</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr class="separador" />
+
+    <section id="recado">
+      <h2 class="titulo-secao">Livro de Visitas</h2>
+      <form class="form-tete" action="#" method="post">
+        <label><input type="text" class="campo" name="nome" placeholder="Seu nome" required /></label><br />
+        <label
+          >Recado:<br />
+          <textarea class="campo" name="recado" rows="4" cols="30"></textarea></label
+        ><br />
+        <input class="botao-enviar" type="submit" value="Enviar recadinho" />
+        <input class="botao-limpar" type="reset" value="Limpar" />
+      </form>
+    </section>
+  </body>
+</html>

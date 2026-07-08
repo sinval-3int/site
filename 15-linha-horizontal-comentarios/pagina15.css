@@ -1,0 +1,14 @@
+/* PÁGINA 15 - LINHA HORIZONTAL
+   Antigamente: <hr size="" width="" align="">. Hoje: border + width no CSS. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.separador {
+  border: none;
+  border-top: 3px dashed #e6d7f7;
+  width: 60%;
+  margin: 1.5em auto;
+}

@@ -1,0 +1,46 @@
+/* PÁGINA 40 - CADASTRO
+   Mesmo padrão visual da login.css (mesma classe .caixa-login/.form-tete), arquivo próprio e separado. */
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.caixa-login {
+  background-color: #bee3f8;
+  padding: 2em;
+  border-radius: 16px;
+  text-align: center;
+  width: 320px;
+}
+.logo {
+  border-radius: 12px;
+  margin-bottom: 1em;
+}
+.form-tete {
+  background-color: #e6d7f7;
+  padding: 1.5em;
+  border-radius: 12px;
+}
+.campo {
+  padding: 0.4em;
+  border-radius: 6px;
+  border: 1px solid #6b4f4f;
+  margin-bottom: 0.8em;
+  width: 90%;
+}
+.botao-enviar {
+  background-color: #ffd1dc;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.link-simples {
+  color: #6b4f4f;
+}

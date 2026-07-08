@@ -1,0 +1,21 @@
+<!-- PÁGINA 33 - RADIO, CHECKBOX E SUBMIT | extensão da pág.32 (mesmo form, mais campos) -->
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Site da Teté - Livro de Visitas</title>
+    <link rel="stylesheet" href="pagina33.css" />
+  </head>
+  <body>
+    <h2>Deixe um recadinho pra Teté</h2>
+    <form class="form-tete" action="#" method="post">
+      <label><input type="text" class="campo" name="nome" placeholder="Seu nome" /></label><br />
+      <p>Você é da família?</p>
+      <label><input type="radio" name="parentesco" value="sim" checked /> Sim</label><br />
+      <label><input type="radio" name="parentesco" value="nao" /> Não, sou amigo(a)</label><br />
+      <p>Quer receber novidades por e-mail?</p>
+      <label><input type="checkbox" name="newsletter" checked /> Sim, quero!</label><br />
+      <input class="botao-enviar" type="submit" value="Enviar recadinho" />
+    </form>
+  </body>
+</html>

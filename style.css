@@ -1,0 +1,64 @@
+/*
+  CSS da página inicial (index.html) do "Site da Teté"
+*/
+.pagina-tete {
+  background-color: #ffe4ec;
+  color: #5a3e50;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+.paragrafo-intro {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+}
+
+.menu-nav {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.menu-nav a {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: #ffd6e0;
+  text-decoration: none;
+  color: #7a3b57;
+}
+.menu-nav a:hover {
+  background: #ff8fab;
+  color: #fff;
+}
+
+/* grade de cartões, um por semana */
+.cartoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.cartao {
+  background: #fff8fa;
+  border: 2px solid #ffb6c1;
+  border-radius: 12px;
+  padding: 16px;
+  width: 220px;
+  text-align: left;
+}
+.cartao h2 {
+  color: #ff4d79;
+  margin-top: 0;
+}
+.cartao a {
+  color: #ff8fab;
+  font-weight: bold;
+  text-decoration: none;
+}
+.cartao a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+/* PÁGINA 33 - RADIO/CHECKBOX/SUBMIT
+   Reaproveita .form-tete e .campo. Acrescenta .botao-enviar - estilo de botão que fecha o form (pág.34/36). */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.form-tete {
+  background-color: #e6d7f7;
+  padding: 1.5em;
+  border-radius: 12px;
+  max-width: 400px;
+}
+.campo {
+  padding: 0.4em;
+  border-radius: 6px;
+  border: 1px solid #6b4f4f;
+  margin-bottom: 0.8em;
+  width: 90%;
+}
+.botao-enviar {
+  background-color: #ffd1dc;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.8em;
+}
+.botao-enviar:hover {
+  background-color: #ffb6c9;
+}

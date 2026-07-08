@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" rx="20" fill="#c8f4de"/>
+  <text x="100" y="105" font-family="Verdana, sans-serif" font-size="16"
+        fill="#6b4f4f" text-anchor="middle">Chocalho</text>
+</svg>

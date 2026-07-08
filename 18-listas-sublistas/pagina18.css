@@ -1,0 +1,17 @@
+/* PÁGINA 18 - LISTAS E SUB-LISTAS
+   Reaproveita .lista-bebe da pág.16, acrescenta .sublista com cor diferente pra marcar o 2º nível. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.lista-bebe {
+  list-style-type: "🧸 ";
+  padding-left: 1.5em;
+}
+.sublista {
+  list-style-type: "🍼 ";
+  color: #3a7bbf;
+  padding-left: 1.5em;
+}

@@ -1,0 +1,18 @@
+/* PÁGINA 5 - PUBLICAÇÃO
+   Extensão da pág.4: reaproveita estilo de <code>, acrescenta classe .dica (destaque de aviso). */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+code {
+  background-color: #e6d7f7;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+}
+.dica {
+  background-color: #c8f4de;
+  padding: 0.8em;
+  border-radius: 8px;
+}

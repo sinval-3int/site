@@ -1,0 +1,22 @@
+/* PÁGINA 26 - MOLDURAS (ESPAÇAMENTO)
+   Antigamente: <img vspace="20" hspace="20">. Hoje: margin no CSS.
+   Reaproveita todas as classes de imagem construídas nas pág.23-25. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.foto-bebe {
+  max-width: 100%;
+}
+.foto-moldura {
+  border: 6px solid #bee3f8;
+  border-radius: 12px;
+}
+.foto-esquerda {
+  float: left;
+}
+.foto-espacada {
+  margin: 20px;
+}

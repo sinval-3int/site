@@ -1,0 +1,18 @@
+/* PÁGINA 8 - SEÇÃO BODY
+   Antigamente isso era feito com atributos <body bgcolor="" text="" link="">.
+   Hoje fazemos tudo aqui no CSS - primeira vez que estilizamos body inteiro + link. */
+body {
+  background-color: #ffd1dc; /* era bgcolor */
+  color: #6b4f4f; /* era text */
+  font-family: Verdana, sans-serif;
+  padding: 2em;
+}
+a {
+  color: #4a6fa5;
+} /* era link */
+a:visited {
+  color: #8a6fa5;
+} /* era vlink */
+a:active {
+  color: #d1495b;
+} /* era alink */

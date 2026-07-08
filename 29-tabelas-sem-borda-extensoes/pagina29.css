@@ -1,0 +1,22 @@
+/* PÁGINA 29 - SEM BORDA + COR DE FUNDO
+   Antigamente: <table border="0"> e <td bgcolor="">. Hoje: border: none + background-color por classe. */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+  padding: 2em;
+}
+.tabela-crescimento {
+  border-collapse: collapse;
+}
+.tabela-crescimento th,
+.tabela-crescimento td {
+  padding: 0.5em 1em;
+}
+.tabela-sem-borda th,
+.tabela-sem-borda td {
+  border: none;
+}
+.linha-destaque {
+  background-color: #c8f4de;
+}

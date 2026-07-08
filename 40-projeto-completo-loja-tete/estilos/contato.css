@@ -1,0 +1,65 @@
+/* PÁGINA 40 - CONTATO
+   Mesmo .menu-tete das outras + .form-tete/.campo/.botao-enviar/.botao-limpar das pág.31-36. */
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #fff8e7;
+  color: #6b4f4f;
+}
+.menu-tete {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd1dc;
+  padding: 1em;
+}
+.menu-tete a {
+  color: #6b4f4f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu-tete a:hover {
+  text-decoration: underline;
+}
+.botao-sair {
+  margin-left: auto;
+  background-color: #6b4f4f;
+  color: #fff8e7 !important;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+}
+
+.conteudo {
+  max-width: 400px;
+  margin: 2em auto;
+  text-align: center;
+}
+.form-tete {
+  background-color: #e6d7f7;
+  padding: 1.5em;
+  border-radius: 12px;
+}
+.campo {
+  padding: 0.4em;
+  border-radius: 6px;
+  border: 1px solid #6b4f4f;
+  margin-bottom: 0.8em;
+  width: 90%;
+}
+.botao-enviar {
+  background-color: #ffd1dc;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.botao-limpar {
+  background-color: #bee3f8;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 0.5em;
+}

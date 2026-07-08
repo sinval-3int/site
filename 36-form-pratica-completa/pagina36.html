@@ -1,0 +1,31 @@
+<!-- PÁGINA 36 - PRÁTICA: FORM COMPLETO | junta tudo das pág.31-35 num único exercício de aula -->
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Site da Teté - Livro de Visitas (Exercício)</title>
+    <link rel="stylesheet" href="pagina36.css" />
+  </head>
+  <body>
+    <h1 class="titulo-secao">Livro de Visitas da Teté</h1>
+    <form class="form-tete" action="#" method="post">
+      <label><input type="text" class="campo" name="nome" placeholder="Seu nome" required /></label><br />
+      <label
+        >Parentesco:
+        <select class="campo" name="parentesco">
+          <option value="mae">Mãe</option>
+          <option value="pai">Pai</option>
+          <option value="avo">Avó/Avô</option>
+          <option value="amigo">Amigo(a)</option>
+        </select> </label
+      ><br />
+      <label
+        >Recado:<br />
+        <textarea class="campo" name="recado" rows="4" cols="30"></textarea></label
+      ><br />
+      <label><input type="checkbox" name="newsletter" checked /> Quero novidades por e-mail</label><br />
+      <input class="botao-enviar" type="submit" value="Enviar recadinho" />
+      <input class="botao-limpar" type="reset" value="Limpar" />
+    </form>
+  </body>
+</html>

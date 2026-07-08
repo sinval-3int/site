@@ -1,0 +1,133 @@
+/* PÁGINA 38 - PROJETO FINAL
+   NENHUMA classe nova aqui - é a soma de tudo que apareceu nas pág.1 a 37.
+   Serve pra aula de revisão: o aluno reconhece cada bloco de uma aula anterior. */
+:root {
+  --rosa-bebe: #ffd1dc;
+  --azul-bebe: #bee3f8;
+  --menta-bebe: #c8f4de;
+  --creme-bebe: #fff8e7;
+  --lilas-bebe: #e6d7f7;
+  --texto-marrom: #6b4f4f;
+}
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: var(--creme-bebe);
+  color: var(--texto-marrom);
+}
+
+/* pág.1 */
+.capa {
+  text-align: center;
+  padding: 3em 1em;
+  background-color: var(--rosa-bebe);
+}
+.capa-titulo {
+  font-size: 2.5rem;
+}
+
+/* pág.2/20 */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+  margin: 0;
+}
+.menu a {
+  text-decoration: none;
+  color: var(--texto-marrom);
+  background-color: var(--azul-bebe);
+  padding: 0.5em 1em;
+  border-radius: 8px;
+}
+.menu a:hover {
+  background-color: var(--menta-bebe);
+}
+
+section {
+  padding: 2em;
+}
+
+/* pág.16/37 */
+.lista-bebe {
+  list-style-type: "🧸 ";
+  padding-left: 1.5em;
+}
+
+/* pág.23-26 */
+.foto-bebe {
+  max-width: 100%;
+}
+.foto-moldura {
+  border: 6px solid var(--azul-bebe);
+  border-radius: 12px;
+}
+.foto-esquerda {
+  float: left;
+}
+.foto-espacada {
+  margin: 20px;
+}
+
+/* pág.15 */
+.separador {
+  border: none;
+  border-top: 3px dashed var(--lilas-bebe);
+  width: 60%;
+  margin: 1.5em auto;
+}
+
+/* pág.27-29 */
+.tabela-crescimento {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.tabela-crescimento th,
+.tabela-crescimento td {
+  padding: 0.5em 1em;
+}
+.tabela-sem-borda th,
+.tabela-sem-borda td {
+  border: none;
+}
+.linha-destaque {
+  background-color: var(--menta-bebe);
+}
+
+/* pág.31-36 */
+.titulo-secao {
+  text-align: center;
+  color: #d1497a;
+}
+.form-tete {
+  background-color: var(--lilas-bebe);
+  padding: 1.5em;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.campo {
+  padding: 0.4em;
+  border-radius: 6px;
+  border: 1px solid var(--texto-marrom);
+  margin-bottom: 0.8em;
+  width: 90%;
+}
+.botao-enviar {
+  background-color: var(--rosa-bebe);
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.botao-limpar {
+  background-color: var(--azul-bebe);
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 0.5em;
+}
