@@ -1,5 +1,3 @@
-/* PÁGINA 40 - RECUPERAR SENHA
-   Reaproveita .menu-tete (mesmo padrão de inicio.css/sobre.css/contato.css) + .form-tete de login/cadastro. */
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
@@ -52,4 +50,10 @@ body {
 }
 .link-simples {
   color: #6b4f4f;
+}
+
+.foto-destaque {
+  border-radius: 12px;
+  margin-bottom: 1em;
+  width: 200px;
 }

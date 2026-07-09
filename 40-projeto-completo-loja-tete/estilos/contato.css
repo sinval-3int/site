@@ -1,5 +1,3 @@
-/* PÁGINA 40 - CONTATO
-   Mesmo .menu-tete das outras + .form-tete/.campo/.botao-enviar/.botao-limpar das pág.31-36. */
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
@@ -62,4 +60,10 @@ body {
   border-radius: 8px;
   cursor: pointer;
   margin-left: 0.5em;
+}
+
+.logo {
+  border-radius: 12px;
+  margin-bottom: 0.5em;
+  width: 200px;
 }
